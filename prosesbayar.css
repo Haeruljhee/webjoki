@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabel-pembayaran {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabel-pembayaran td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.norek {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.masukan {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #000, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+#tombol-kirim {
+    background-color: #07f1de;
+    color: black;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+#tombol-kirim:hover {
+    background-color: #ec6e06;
+}
+
+/* Responsif */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 5px;
+    }
+}
